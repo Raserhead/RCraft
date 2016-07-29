@@ -1,5 +1,0 @@
-Things to remember:
-- Don't edit it if you don't know what it is.
-- Watch for spacing.
-- Save when you're done.
-- NOTEPAD++ IS REQUIRED TO EDIT FILES

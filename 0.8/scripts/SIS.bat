@@ -1,0 +1,1 @@
+.\"scripts/SysInfo.bat" > "scripts/sysinfo.txt"

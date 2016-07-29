@@ -1,0 +1,36 @@
+RaserCraft Insta-Server start up for plugin testing and tomfoolery.
+MC Ver: Spigot 1.8
+Platform: Windows 7 or higher (No idea about Xp/Vista) Will do mac if requested.
+Java: Latest, 64bit required for higher than 2GB RAM Allocation
+Application Requirements: Notepad++
+
+
+
+0.1 Added it
+0.2 Generated files, added a readme and improved script
+0.3 Optimized start up script, added server restart/close prompt menus
+0.4 Massive script and ReadThis overhaul.
+0.5 GUI implementation and script overhaul.
+0.6 Massive GUI Additions, One-click plugin configuration. Version 0.5 and Start.bat now Obsolete
+0.6.1 Small init.bat edit to allow the new setup to work.
+0.6.2 Added "Server Properties" button.
+0.7 Heavy graphical overhaul
+0.8 Huge Operational rework and completion of graphical overhaul
+Functions:
+- Removed old startup method
+- Added the "Launchpad"
+- Added system check and hardware alerts
+- Added several new scripts to be used by application
+- Dropdown menu added to select memory allocation
+- New config buttons added
+- Added alert to config menu
+- Stopped entire application closing if one window besides main is closed
+Graphical:
+- Every function page now has appropriate graphic banners
+- All buttons now have custom look
+- Added button hover effect
+- About page format cleanup
+- Config page cleanup
+- StartMenu cleanup
+- Launchpad concept completed
+- Overall screen space consumption decreased

@@ -127,7 +127,7 @@ Simple instructions
 4. Direct TCP and UDP connects on the 25565 port to your internal address
 5. Connect to your server through mc using your external IP address, if you don't know it just google "whatsmyip".
 
-If you just want it for yourself, just put the internal address in the "server Ip" field when adding it to your list.
+If you just want it for yourself, just put the internal address or "localhost" in the "server Ip" field when adding it to your list.
 
 -------------------------------------------------------FAQ-----------------------------------------------------
 

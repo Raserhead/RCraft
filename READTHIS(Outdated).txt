@@ -10,7 +10,7 @@ Required Programs to run correctly: Notepad++
 
 The plugins and server framework belong the their authors and Mojang respectfully, 
 even though most configuration is done by me.
-All other java assets are mine, as well as the batch scripts.
+All other assets are mine, as well as the batch scripts.
 
 You can share this setup with who you like and credit me for the assests and configuration,
 however if you are using the "Enterprise" version,

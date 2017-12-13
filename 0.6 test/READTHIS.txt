@@ -1,15 +1,16 @@
 ﻿---------------------------------------------Technical Stuff----------------------------------------------------
 
-RaserCraft V0.4
+RaserCraft V0.6
 Minecraft Version: Spigot 1.8 
 Platform: Windows 7 or higher (No idea about Xp/Vista) Will do mac if requested.
 Java: Latest, 64bit required for higher than 2GB RAM Allocation
+Required Programs to run correctly: Notepad++
 
 ---------------------------------------------Legal Stuff--------------------------------------------------------
 
 The plugins and server framework belong the their authors and Mojang respectfully, 
 even though most configuration is done by me.
-Only the start up scripts and whatever else I point out is mine.
+All other java assets are mine, as well as the batch scripts.
 
 You can share this setup with who you like and credit me for the assests and configuration,
 however if you are using the "Enterprise" version,
@@ -27,8 +28,8 @@ That's just to make sure you don't overwork your system, servers can work on les
 ---------------------------------------------Getting Started----------------------------------------------------
 
 The Insta-Server folder contains all required setup assets and several "starting" plugins,
-the first thing you want to do is make sure you have all the necessary files and scripts, (Currenly 3 scripts)
-Start, init and res.
+the first thing you want to do is make sure you have all the necessary files and scripts,
+The main assets you need to make sure you have, are: Rasercraft.jar, init.bat and res.bat
 
 MEMORY ALLOCATION:
 
@@ -49,8 +50,8 @@ in which case I'd suggest a minimum 8GB assigned to the server IF YOU HAVE 16GB 
 Otherwise, stick with 4.
 
 Now, to actually give it this RAM, you have to edit the startup code, which I've made a bit easier.
-RUN the "Start" script (double click), the first prompt you get will ask you if you want to change
-memory allocation, so type "Y" and hit enter, it will then open up a notepad file and you will see
+RUN the "Rasercraft" jar (double click), Click "Open config screen" and then click "Memory allocation".
+It will then open up a notepad++ file and you will see
 this line:
 "java -server -XX:+UseConcMarkSweepGC -XX:OnOutOfMemoryError="kill -9 %p" -Xmx2G -jar spigot.jar nogui -o true"
 
@@ -64,8 +65,7 @@ Once you've changed the number, save the file and then close it, don't edit any 
 
 FIRST RUN THROUGH:
 
-If you have just finished allocating the memory, the window should still be open, so just enter "N" this time,
-if not, just open the script and do what I just said.
+Start the Rasercraft.jar then click the "Launch Server" button.
 The server will then begin it's start up sequence and generate your world and anything else it needs.
 Once it has launched and you see the "Done <1.4585s>!" message, you'll want to OP yourself, to do this just type
 "OP (your minecraft username)", not including the (), and hit enter. That's all you need to do for now.
@@ -105,9 +105,8 @@ look through the information or take a shot in the dark.
 
 PlUGIN CONFIGURATION:
 
-For the starter plugins inside the pack, there is an option in the start script that will allow you
-to launch the config for them, E.g Essentials, PEX or WorldGuard. (NYI)
-
+To edit configuration files, click "Open Config Screen" on the main Rasercraft menu, then just click
+which plugin configuration you would like to edit.
 I will not be offering support for any other plugins unless they become part of the pack themselves,
 I may add something that will allow you to add your own into it.
 Until then, you'll have to go into the server files themselves to edit them.
@@ -132,3 +131,8 @@ If you just want it for yourself, just put the internal address in the "server I
 -------------------------------------------------------FAQ-----------------------------------------------------
 
 I'll add these when I get some.
+
+1. When I try to edit one of the configs nothing happens! What do I do?
+Solution: You most likely don't have Notepad++, get it from here: https://notepad-plus-plus.org/download/v6.8.3.html
+          Download the installer, run it, install to the default location, DO NOT CHANGE IT. Leave all options as default
+          If you've done this correctly, it should work. No exceptions.

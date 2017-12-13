@@ -13,8 +13,7 @@ goto :choice
 cls
 echo Restarting the server...
 timeout /t 10 /nobreak
-start init.bat
-exit
+goto :Minecraft
 
 :choice2
 set /P a=Launch config menu? [Y/N]
@@ -23,7 +22,7 @@ if /I "%a%" EQU "N" goto :stop
 goto :choice2
 
 :configlaunch
-start Start.bat
+start RunMe.bat
 exit
 
 :stop
